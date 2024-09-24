@@ -1,0 +1,1 @@
+Please add these files to the main folder before running the code. Choose the circuits you wish to train and test in the filepaths_list variable of main_NN_concatenate_wires_name.py file. Accordingly add these files to the main folder.
