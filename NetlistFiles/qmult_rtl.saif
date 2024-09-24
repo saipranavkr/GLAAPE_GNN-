@@ -1,0 +1,404 @@
+/** There is no explict set_gate_level_monitoring command, **/
+/** and the default behavior is to monitor internal nets  **/
+(SAIFILE
+(SAIFVERSION "2.0")
+(DIRECTION "backward")
+(DESIGN )
+(DATE "Tue Feb  8 22:44:45 2022")
+(VENDOR "Synopsys, Inc")
+(PROGRAM_NAME "VCS P-2019.06-1")
+(VERSION "1.0")
+(DIVIDER / )
+(TIMESCALE 10 ps)
+(DURATION 2001000.00)
+(INSTANCE tb_qmult
+   (INSTANCE uut
+      (NET
+         (i_multiplicand[31]
+            (T0 1054000) (T1 944000) (TX 3000)
+            (TC 498) (IG 0)
+         )
+         (i_multiplicand[30]
+            (T0 1002000) (T1 996000) (TX 3000)
+            (TC 501) (IG 0)
+         )
+         (i_multiplicand[29]
+            (T0 962000) (T1 1036000) (TX 3000)
+            (TC 491) (IG 0)
+         )
+         (i_multiplicand[28]
+            (T0 1028000) (T1 970000) (TX 3000)
+            (TC 500) (IG 0)
+         )
+         (i_multiplicand[27]
+            (T0 1042000) (T1 956000) (TX 3000)
+            (TC 516) (IG 0)
+         )
+         (i_multiplicand[26]
+            (T0 956000) (T1 1042000) (TX 3000)
+            (TC 473) (IG 0)
+         )
+         (i_multiplicand[25]
+            (T0 964000) (T1 1034000) (TX 3000)
+            (TC 514) (IG 0)
+         )
+         (i_multiplicand[24]
+            (T0 1008000) (T1 990000) (TX 3000)
+            (TC 520) (IG 0)
+         )
+         (i_multiplicand[23]
+            (T0 992000) (T1 1006000) (TX 3000)
+            (TC 519) (IG 0)
+         )
+         (i_multiplicand[22]
+            (T0 972000) (T1 1026000) (TX 3000)
+            (TC 487) (IG 0)
+         )
+         (i_multiplicand[21]
+            (T0 976000) (T1 1022000) (TX 3000)
+            (TC 477) (IG 0)
+         )
+         (i_multiplicand[20]
+            (T0 1036000) (T1 962000) (TX 3000)
+            (TC 495) (IG 0)
+         )
+         (i_multiplicand[19]
+            (T0 978000) (T1 1020000) (TX 3000)
+            (TC 483) (IG 0)
+         )
+         (i_multiplicand[18]
+            (T0 990000) (T1 1008000) (TX 3000)
+            (TC 509) (IG 0)
+         )
+         (i_multiplicand[17]
+            (T0 1042000) (T1 956000) (TX 3000)
+            (TC 512) (IG 0)
+         )
+         (i_multiplicand[16]
+            (T0 918000) (T1 1080000) (TX 3000)
+            (TC 516) (IG 0)
+         )
+         (i_multiplicand[15]
+            (T0 1008000) (T1 990000) (TX 3000)
+            (TC 537) (IG 0)
+         )
+         (i_multiplicand[14]
+            (T0 1012000) (T1 986000) (TX 3000)
+            (TC 475) (IG 0)
+         )
+         (i_multiplicand[13]
+            (T0 996000) (T1 1002000) (TX 3000)
+            (TC 499) (IG 0)
+         )
+         (i_multiplicand[12]
+            (T0 1020000) (T1 978000) (TX 3000)
+            (TC 496) (IG 0)
+         )
+         (i_multiplicand[11]
+            (T0 974000) (T1 1024000) (TX 3000)
+            (TC 499) (IG 0)
+         )
+         (i_multiplicand[10]
+            (T0 998000) (T1 1000000) (TX 3000)
+            (TC 498) (IG 0)
+         )
+         (i_multiplicand[9]
+            (T0 994000) (T1 1004000) (TX 3000)
+            (TC 511) (IG 0)
+         )
+         (i_multiplicand[8]
+            (T0 944000) (T1 1054000) (TX 3000)
+            (TC 498) (IG 0)
+         )
+         (i_multiplicand[7]
+            (T0 1002000) (T1 996000) (TX 3000)
+            (TC 501) (IG 0)
+         )
+         (i_multiplicand[6]
+            (T0 962000) (T1 1036000) (TX 3000)
+            (TC 491) (IG 0)
+         )
+         (i_multiplicand[5]
+            (T0 1028000) (T1 970000) (TX 3000)
+            (TC 500) (IG 0)
+         )
+         (i_multiplicand[4]
+            (T0 1042000) (T1 956000) (TX 3000)
+            (TC 516) (IG 0)
+         )
+         (i_multiplicand[3]
+            (T0 956000) (T1 1042000) (TX 3000)
+            (TC 473) (IG 0)
+         )
+         (i_multiplicand[2]
+            (T0 964000) (T1 1034000) (TX 3000)
+            (TC 514) (IG 0)
+         )
+         (i_multiplicand[1]
+            (T0 1008000) (T1 990000) (TX 3000)
+            (TC 520) (IG 0)
+         )
+         (i_multiplicand[0]
+            (T0 992000) (T1 1006000) (TX 3000)
+            (TC 519) (IG 0)
+         )
+         (i_multiplier[31]
+            (T0 992000) (T1 1006000) (TX 3000)
+            (TC 470) (IG 0)
+         )
+         (i_multiplier[30]
+            (T0 978000) (T1 1020000) (TX 3000)
+            (TC 492) (IG 0)
+         )
+         (i_multiplier[29]
+            (T0 1016000) (T1 982000) (TX 3000)
+            (TC 495) (IG 0)
+         )
+         (i_multiplier[28]
+            (T0 1000000) (T1 998000) (TX 3000)
+            (TC 497) (IG 0)
+         )
+         (i_multiplier[27]
+            (T0 1018000) (T1 980000) (TX 3000)
+            (TC 530) (IG 0)
+         )
+         (i_multiplier[26]
+            (T0 978000) (T1 1020000) (TX 3000)
+            (TC 495) (IG 0)
+         )
+         (i_multiplier[25]
+            (T0 1052000) (T1 946000) (TX 3000)
+            (TC 499) (IG 0)
+         )
+         (i_multiplier[24]
+            (T0 1080000) (T1 918000) (TX 3000)
+            (TC 494) (IG 0)
+         )
+         (i_multiplier[23]
+            (T0 988000) (T1 1010000) (TX 3000)
+            (TC 474) (IG 0)
+         )
+         (i_multiplier[22]
+            (T0 996000) (T1 1002000) (TX 3000)
+            (TC 476) (IG 0)
+         )
+         (i_multiplier[21]
+            (T0 962000) (T1 1036000) (TX 3000)
+            (TC 532) (IG 0)
+         )
+         (i_multiplier[20]
+            (T0 1012000) (T1 986000) (TX 3000)
+            (TC 504) (IG 0)
+         )
+         (i_multiplier[19]
+            (T0 1030000) (T1 968000) (TX 3000)
+            (TC 516) (IG 0)
+         )
+         (i_multiplier[18]
+            (T0 996000) (T1 1002000) (TX 3000)
+            (TC 480) (IG 0)
+         )
+         (i_multiplier[17]
+            (T0 1014000) (T1 984000) (TX 3000)
+            (TC 504) (IG 0)
+         )
+         (i_multiplier[16]
+            (T0 1010000) (T1 988000) (TX 3000)
+            (TC 480) (IG 0)
+         )
+         (i_multiplier[15]
+            (T0 1020000) (T1 978000) (TX 3000)
+            (TC 493) (IG 0)
+         )
+         (i_multiplier[14]
+            (T0 1002000) (T1 996000) (TX 3000)
+            (TC 487) (IG 0)
+         )
+         (i_multiplier[13]
+            (T0 978000) (T1 1020000) (TX 3000)
+            (TC 502) (IG 0)
+         )
+         (i_multiplier[12]
+            (T0 982000) (T1 1016000) (TX 3000)
+            (TC 501) (IG 0)
+         )
+         (i_multiplier[11]
+            (T0 1020000) (T1 978000) (TX 3000)
+            (TC 497) (IG 0)
+         )
+         (i_multiplier[10]
+            (T0 1004000) (T1 994000) (TX 3000)
+            (TC 498) (IG 0)
+         )
+         (i_multiplier[9]
+            (T0 1000000) (T1 998000) (TX 3000)
+            (TC 493) (IG 0)
+         )
+         (i_multiplier[8]
+            (T0 1006000) (T1 992000) (TX 3000)
+            (TC 470) (IG 0)
+         )
+         (i_multiplier[7]
+            (T0 978000) (T1 1020000) (TX 3000)
+            (TC 492) (IG 0)
+         )
+         (i_multiplier[6]
+            (T0 1016000) (T1 982000) (TX 3000)
+            (TC 495) (IG 0)
+         )
+         (i_multiplier[5]
+            (T0 1000000) (T1 998000) (TX 3000)
+            (TC 497) (IG 0)
+         )
+         (i_multiplier[4]
+            (T0 1018000) (T1 980000) (TX 3000)
+            (TC 530) (IG 0)
+         )
+         (i_multiplier[3]
+            (T0 978000) (T1 1020000) (TX 3000)
+            (TC 495) (IG 0)
+         )
+         (i_multiplier[2]
+            (T0 1052000) (T1 946000) (TX 3000)
+            (TC 499) (IG 0)
+         )
+         (i_multiplier[1]
+            (T0 1080000) (T1 918000) (TX 3000)
+            (TC 494) (IG 0)
+         )
+         (i_multiplier[0]
+            (T0 988000) (T1 1010000) (TX 3000)
+            (TC 474) (IG 0)
+         )
+         (o_result[31]
+            (T0 972000) (T1 1026000) (TX 3000)
+            (TC 502) (IG 0)
+         )
+         (o_result[30]
+            (T0 916000) (T1 1082000) (TX 3000)
+            (TC 474) (IG 0)
+         )
+         (o_result[29]
+            (T0 1028000) (T1 970000) (TX 3000)
+            (TC 512) (IG 0)
+         )
+         (o_result[28]
+            (T0 1028000) (T1 970000) (TX 3000)
+            (TC 481) (IG 0)
+         )
+         (o_result[27]
+            (T0 966000) (T1 1032000) (TX 3000)
+            (TC 488) (IG 0)
+         )
+         (o_result[26]
+            (T0 954000) (T1 1044000) (TX 3000)
+            (TC 509) (IG 0)
+         )
+         (o_result[25]
+            (T0 980000) (T1 1018000) (TX 3000)
+            (TC 498) (IG 0)
+         )
+         (o_result[24]
+            (T0 972000) (T1 1026000) (TX 3000)
+            (TC 499) (IG 0)
+         )
+         (o_result[23]
+            (T0 892000) (T1 1106000) (TX 3000)
+            (TC 503) (IG 0)
+         )
+         (o_result[22]
+            (T0 1050000) (T1 948000) (TX 3000)
+            (TC 497) (IG 0)
+         )
+         (o_result[21]
+            (T0 1004000) (T1 994000) (TX 3000)
+            (TC 489) (IG 0)
+         )
+         (o_result[20]
+            (T0 984000) (T1 1014000) (TX 3000)
+            (TC 504) (IG 0)
+         )
+         (o_result[19]
+            (T0 958000) (T1 1040000) (TX 3000)
+            (TC 503) (IG 0)
+         )
+         (o_result[18]
+            (T0 1010000) (T1 988000) (TX 3000)
+            (TC 488) (IG 0)
+         )
+         (o_result[17]
+            (T0 1054000) (T1 944000) (TX 3000)
+            (TC 485) (IG 0)
+         )
+         (o_result[16]
+            (T0 954000) (T1 1044000) (TX 3000)
+            (TC 518) (IG 0)
+         )
+         (o_result[15]
+            (T0 1038000) (T1 960000) (TX 3000)
+            (TC 492) (IG 0)
+         )
+         (o_result[14]
+            (T0 982000) (T1 1016000) (TX 3000)
+            (TC 494) (IG 0)
+         )
+         (o_result[13]
+            (T0 1030000) (T1 968000) (TX 3000)
+            (TC 507) (IG 0)
+         )
+         (o_result[12]
+            (T0 1040000) (T1 958000) (TX 3000)
+            (TC 499) (IG 0)
+         )
+         (o_result[11]
+            (T0 1020000) (T1 978000) (TX 3000)
+            (TC 486) (IG 0)
+         )
+         (o_result[10]
+            (T0 1008000) (T1 990000) (TX 3000)
+            (TC 502) (IG 0)
+         )
+         (o_result[9]
+            (T0 1000000) (T1 998000) (TX 3000)
+            (TC 491) (IG 0)
+         )
+         (o_result[8]
+            (T0 988000) (T1 1010000) (TX 3000)
+            (TC 486) (IG 0)
+         )
+         (o_result[7]
+            (T0 1020000) (T1 978000) (TX 3000)
+            (TC 463) (IG 0)
+         )
+         (o_result[6]
+            (T0 948000) (T1 1050000) (TX 3000)
+            (TC 523) (IG 0)
+         )
+         (o_result[5]
+            (T0 1032000) (T1 966000) (TX 3000)
+            (TC 509) (IG 0)
+         )
+         (o_result[4]
+            (T0 1052000) (T1 946000) (TX 3000)
+            (TC 489) (IG 0)
+         )
+         (o_result[3]
+            (T0 916000) (T1 1082000) (TX 3000)
+            (TC 500) (IG 0)
+         )
+         (o_result[2]
+            (T0 1046000) (T1 952000) (TX 3000)
+            (TC 499) (IG 0)
+         )
+         (o_result[1]
+            (T0 966000) (T1 1032000) (TX 3000)
+            (TC 507) (IG 0)
+         )
+         (o_result[0]
+            (T0 998000) (T1 1000000) (TX 3000)
+            (TC 507) (IG 0)
+         )
+      )
+   )
+)
+)

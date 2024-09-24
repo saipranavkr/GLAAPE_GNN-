@@ -1,0 +1,100 @@
+(SAIFILE
+(SAIFVERSION "2.0")
+(DIRECTION "backward")
+(DESIGN )
+(DATE "Sat Feb 12 16:55:37 2022")
+(VENDOR "Synopsys, Inc")
+(PROGRAM_NAME "vcd2saif")
+(VERSION "P-2019.03-SP5-5")
+(DIVIDER / )
+(TIMESCALE 10 ps)
+(DURATION 2001000)
+(INSTANCE uut
+  (NET
+    (coeff_token[0]
+      (T0 1748000) (T1 250000) (TX 3000)
+      (TC 212) (IG 0)
+    )
+    (coeff_token[1]
+      (T0 1734000) (T1 264000) (TX 3000)
+      (TC 233) (IG 0)
+    )
+    (coeff_token[2]
+      (T0 1702000) (T1 296000) (TX 3000)
+      (TC 251) (IG 0)
+    )
+    (coeff_token[3]
+      (T0 1722000) (T1 276000) (TX 3000)
+      (TC 230) (IG 0)
+    )
+    (coeff_token[4]
+      (T0 1926000) (T1 72000) (TX 3000)
+      (TC 70) (IG 0)
+    )
+    (coeff_token[5]
+      (T0 1922000) (T1 76000) (TX 3000)
+      (TC 74) (IG 0)
+    )
+    (ctable[0]
+      (T0 986000) (T1 1012000) (TX 3000)
+      (TC 486) (IG 0)
+    )
+    (ctable[1]
+      (T0 1004000) (T1 994000) (TX 3000)
+      (TC 490) (IG 0)
+    )
+    (ctable[2]
+      (T0 1002000) (T1 996000) (TX 3000)
+      (TC 493) (IG 0)
+    )
+    (ctoken_len[0]
+      (T0 468000) (T1 1530000) (TX 3000)
+      (TC 345) (IG 0)
+    )
+    (ctoken_len[1]
+      (T0 164000) (T1 1834000) (TX 3000)
+      (TC 150) (IG 0)
+    )
+    (ctoken_len[2]
+      (T0 160000) (T1 1838000) (TX 3000)
+      (TC 146) (IG 0)
+    )
+    (ctoken_len[3]
+      (T0 1784000) (T1 214000) (TX 3000)
+      (TC 198) (IG 0)
+    )
+    (ctoken_len[4]
+      (T0 1978000) (T1 20000) (TX 3000)
+      (TC 20) (IG 0)
+    )
+    (totalcoeffs[0]
+      (T0 1026000) (T1 972000) (TX 3000)
+      (TC 490) (IG 0)
+    )
+    (totalcoeffs[1]
+      (T0 1058000) (T1 940000) (TX 3000)
+      (TC 489) (IG 0)
+    )
+    (totalcoeffs[2]
+      (T0 1034000) (T1 964000) (TX 3000)
+      (TC 493) (IG 0)
+    )
+    (totalcoeffs[3]
+      (T0 964000) (T1 1034000) (TX 3000)
+      (TC 492) (IG 0)
+    )
+    (totalcoeffs[4]
+      (T0 1012000) (T1 986000) (TX 3000)
+      (TC 522) (IG 0)
+    )
+    (trailingones[0]
+      (T0 964000) (T1 1034000) (TX 3000)
+      (TC 505) (IG 0)
+    )
+    (trailingones[1]
+      (T0 1046000) (T1 952000) (TX 3000)
+      (TC 476) (IG 0)
+    )
+  )
+)
+)
